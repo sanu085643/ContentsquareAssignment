@@ -1,11 +1,11 @@
 # ContentsquareAssignment
-Test features of marksandspicy website
+Test features of https://marksandspicy.com/ website
 Below scenarios in front end application are automated by using webdriverio framework
 
 # Scenarios
-1. Gototheloginpageandentertheusernameastest@test.comand password as ThisIs@T3st. Check if there is an error displayed.
-2. Gototheloginpageandenterusernameastestandcheckifthe validation tooltip appears.
-3. Gototheloginpageandleavetheusernameandpasswordfieldblank and check if the validation appears in the input box.
+1. Go to the loginpage and enter the usernameas test@test.com and password as Thisls@T3st. Check if there is an error displayed.
+2. Go to the loginpage and enter username as test and check if the validation tooltip appears.
+3. Go to the loginpage and leave the username and password field blank and check if the validation appears in the input box.
 4. Go to the registration page and fill the information, check if the city populates when you enter the pin code. Check if the registration is successful.
 
 
