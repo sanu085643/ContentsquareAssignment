@@ -116,7 +116,11 @@ exports.config = {
     //
     // Make sure you have the wdio adapter package for the specific framework installed
     // before running any tests.
+    // framework: 'mocha',
     framework: 'mocha',
+    beforeSession: function (config, capabilities, specs) {
+        require('@babel/register');
+      },
     //
     // The number of times to retry the entire specfile when it fails as a whole
     // specFileRetries: 1,
